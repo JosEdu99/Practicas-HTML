@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario en HTML</title>
+</head>
+<body>
+	<h1>Formularios en HTML</h1>
+	<form action="#" method="get" name="frmInicio" id="frmInicio">
+	   <label for="txtNombre">Nombre:</label>
+	   <input type="text" name="txtNombre" id="txtNombre" required="required"><br>
+	   
+	   <label for="txtApellido">Apellidos:</label>
+	   <input type="text" name="txtApellido" id="txtApellido" required><br><br>
+
+	   <label><input type="checkbox" name="Cajita" id="Cajita">Opción 1</label>
+	   <label><input type="checkbox" name="Cajita2" id="Cajita2">Opción 2</label>
+	   <label><input type="checkbox" name="Cajita3" id="Cajita3">Opción 3</label><br>
+
+	   <label><input type="radio" name="género" id="género" value "M">Masculino</label>
+	   <label><input type="radio" name="género" id="género" value "F">Femenino</label><br><br>
+
+	   <input type="date" name="fecha" id="fecha"><br>
+	   <input type="datetime-local" name="fechahora" id="fechahora"><br>
+	   <input type="hidden" name="oculta" value="mesta">
+	   <input type="email" name="correo" id="correo" ><br>
+	   <input type="password" name="contraseña" value="qwertyuiop"><br>
+	   <input type="number" name="número" id="número" value="666"><br><br>
+	   <input type="reset" value="Limpiar">
+	   <input type="submit" value="Enviar formulario"><br><br>
+	   <!--
+	   input:file
+	   input:color
+	   input:url
+	   -->
+	   <input type="file" value="Mete un archivo morro" name="archivo" id="archivo"><br>
+	   <input type="color" name="color" id="archivo"><br>
+	   <input type="url" name="url" id="url">
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hypervínculos internos en HTML</title>
+		<head/>
+			<body>
+				<h1>Hypervínculos internos en HTML</h1>
+				<section style="height:600px";>
+					<a name ="Inicio"></a>
+					<p>Párrafo de Inicio</p>
+					<a href ="#Primer">Primer</a>
+				</section>
+				<section style="height:600px";>
+					<a name="Primer"></a>
+					<p>Primer sección</p>
+					<a href="#Inicio">Inicio</a>
+					<a href="#Segunda">Segunda</a>
+				</section>
+				<section style="height:600px";>
+					<a name="Segunda"></a>
+					<p>Segunda sección</p>
+					<a href="#Primer">Primer</a>	
+					<a href="#Tercer">Tercer</a>	
+				</section>
+				<section style="height:600px">
+					<a name="Tercer"></a>
+					<p>Tercer sección</p>
+					<a href="#Segunda">Segunda</a>
+					<a href="#Cuarta">Cuarta</a>
+				</section>
+				<section style="height:600px">
+					<a name="Cuarta"></a>
+					<p>Cuarta sección</p>
+					<a href="#Tercer">Tercer</a>
+					<a href="#Quinta">Quinta</a>
+				</section>
+				<section style="height:600px">
+					<a name="Quinta"></a>
+					<p>Quinta sección</p>
+					<a href="#Cuarta">Cuarta</a>
+					<a href="#Inicio">Inicio</a>
+				</section>
+			</body>
+		</html>
